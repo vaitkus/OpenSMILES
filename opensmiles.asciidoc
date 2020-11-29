@@ -9,6 +9,8 @@ Copyright &copy; 2007-2016, Craig A. James
 
 Content is available under http://www.gnu.org/copyleft/fdl.html[GNU Free Documentation License 1.2]
 
+Source for this document: https://github.com/opensmiles/OpenSMILES
+
 Contributors: Richard Apodaca, Noel O'Boyle, Andrew Dalke, John van Drie, Peter Ertl,
 Geoff Hutchison, Craig A. James, Greg Landrum, Chris Morley, Egon Willighagen, Hans De Winter, Tim Vandermeersch, John May
 
