@@ -16,7 +16,9 @@ Requirements:
 
 ```
 brew install asciidoc
-curl -o /usr/local/Library/Formula/dblatex.rb -L http://gist.github.com/dustinschultz/6544364/raw/5bbe233fbe953b8070c5453fdf09cd65eb515e9e/dblatex.rb
+# old: curl -o /usr/local/Library/Formula/dblatex.rb -L http://gist.github.com/dustinschultz/6544364/raw/5bbe233fbe953b8070c5453fdf09cd65eb515e9e/dblatex.rb
+# https://gist.github.com/jj1bdx/cd021cc7883300162de7
+brew edit dblatex
 # May need to set MacTex path
 brew install dblatex
 ```
