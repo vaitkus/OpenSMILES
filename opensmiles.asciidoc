@@ -184,7 +184,7 @@ Examples:
 | `[U]`       | Uranium
 | `[Pb]`      | Lead
 | `[He]`      | Helium
-| `[*]`       | Unkwown atom
+| `[*]`       | Unknown atom
 |============================
 
 [[hydrogens]]
