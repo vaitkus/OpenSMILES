@@ -592,7 +592,7 @@ number of &#960; electrons:
 :valign: middle
 :halign: center
 
-[options="header",frame="topbot",grid="rows",width="60%",cols="1,1<,1,<3e"]
+[options="header",frame="topbot",grid="rows",width="60%",cols="1,<1,1,<3e"]
 |=======================================================================================================
 | Configuration                       | &#960; Electrons | Example                             | Comment
 |                                     |                  |                                     |
@@ -635,7 +635,7 @@ number of &#960; electrons:
 | image:depict/aromtype/SeX3v4.svg[]  | 2                | image:depict/arom/SeX3v4_ex1.svg[]  | Possibly chiral
 | image:depict/aromtype/SeX3v3p.svg[] | 2                | image:depict/arom/SeX3v3p_ex1.svg[] | Possibly chiral, OpenSMILES extension
 |                                     |                  |                                     |
-|=====================================================================================================
+|=======================================================================================================
 
 Aromaticity Algorithm
 ^^^^^^^^^^^^^^^^^^^^^
@@ -849,7 +849,7 @@ These symbols always come in pairs, and indicate cis or trans with a visual "sam
 |                                                 `F\C=C\F`
 .2+| image:depict/cis-difluoroethene.gif[]      | `F\C=C/F`      .2+| cis-difluoroethane *(both SMILES are equivalent)*
 |                                                 `F/C=C\F`
-|=========================================================================================================================
+|========================================================================================================================
 
 The "visual interpretation" of the `'/'` and `'\'` symbol is that they are thought of as bonds that
 "point" above or below the alkene bond.  That is, `F/C=C/Br` means "The `F` is below the first carbon,
@@ -1426,7 +1426,7 @@ It is an unfortunately common misconception that a Canonical SMILES does not
 contain stereochemistry (http://www.mdpi.com/1420-3049/22/12/2075/htm[Minkiewicz et al. 2017]) or alternatively that all SMILES must be canonical (http://pubs.acs.org/doi/abs/10.1021/ci800135h[Sykora and Leahy, 2008]). SMILES flavors as described by Daylight are summarised below.
 
 [options="header",frame="topbot",grid="rows",cols="6,3,3,3"]
-|===============================================================
+|===================================================================================
 | Flavor           | Atoms and Bonds Distinctly Ordered | Stereochemistry | Isotopes
 | Canonical SMILES | Y    | Y/N             | Y/N
 | Arbitrary SMILES | N    | Y/N             | Y/N
@@ -1434,7 +1434,7 @@ contain stereochemistry (http://www.mdpi.com/1420-3049/22/12/2075/htm[Minkiewicz
 | Unique SMILES    | Y    | N               | N
 | Absolute SMILES  | Y    | Y               | Y
 | Generic SMILES   | N    | N               | N
-|===========================================================
+|===================================================================================
 
 These terms can be confusing and *should be avoided* due to conflicting definitions between vendors and toolkits. For example ChemAxon use the term *Isomeric SMILES* to mean a non-canonical SMILES with stereochemistry and isotopic information specified (see https://docs.chemaxon.com/display/docs/SMILES[SMILES, ChemAxon Documentation]). OEChem use the term *Isomeric SMILES* to mean a canonical SMILES with stereochemistry and isotopic information specified (see https://docs.eyesopen.com/toolkits/cpp/oechemtk/OEChemFunctions/OECreateIsoSmiString.html[+OECreateIsoSmiString+]), *Absolute SMILES* to mean a non-canonical SMILES with stereochemistry and isotopic information specified (see https://docs.eyesopen.com/toolkits/cpp/oechemtk/OEChemFunctions/OECreateAbsSmiString.html[+OECreateAbsSmiString+]), and *Canonical SMILES* to mean a canonical SMILES *without* stereochemistry and isotopic information specified (see https://docs.eyesopen.com/toolkits/cpp/oechemtk/OEChemFunctions/OECreateCanSmiString.html[+OECreateCanSmiString+]).
 
