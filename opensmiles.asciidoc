@@ -849,7 +849,7 @@ These symbols always come in pairs, and indicate cis or trans with a visual "sam
 |                                                 `F\C=C\F`
 .2+| image:depict/cis-difluoroethene.gif[]      | `F\C=C/F`      .2+| cis-difluoroethane *(both SMILES are equivalent)*
 |                                                 `F/C=C\F`
-|=========================================================================================================================
+|========================================================================================================================
 
 The "visual interpretation" of the `'/'` and `'\'` symbol is that they are thought of as bonds that
 "point" above or below the alkene bond.  That is, `F/C=C/Br` means "The `F` is below the first carbon,
