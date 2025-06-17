@@ -592,7 +592,7 @@ number of &#960; electrons:
 :valign: middle
 :halign: center
 
-[options="header",frame="topbot",grid="rows",width="60%",cols="1,1<,1,<3e"]
+[options="header",frame="topbot",grid="rows",width="60%",cols="1,<1,1,<3e"]
 |=======================================================================================================
 | Configuration                       | &#960; Electrons | Example                             | Comment
 |                                     |                  |                                     |
@@ -635,7 +635,7 @@ number of &#960; electrons:
 | image:depict/aromtype/SeX3v4.svg[]  | 2                | image:depict/arom/SeX3v4_ex1.svg[]  | Possibly chiral
 | image:depict/aromtype/SeX3v3p.svg[] | 2                | image:depict/arom/SeX3v3p_ex1.svg[] | Possibly chiral, OpenSMILES extension
 |                                     |                  |                                     |
-|=====================================================================================================
+|=======================================================================================================
 
 Aromaticity Algorithm
 ^^^^^^^^^^^^^^^^^^^^^
